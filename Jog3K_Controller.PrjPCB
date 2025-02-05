@@ -270,12 +270,29 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=IQMMGOFF
 
+[Document14]
+DocumentPath=..\cnc_projects\Altium_JLC_Library\Universal_breakout.PcbLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
 [ProjectVariant1]
 UniqueID=9DCABE77-EFE4-4C17-BE88-8CE971FF8048
 Description=FULL_ASSEMBLY
 AllowFabrication=0
 ParameterCount=0
-VariationCount=17
+VariationCount=18
 Variation1=Designator=J1|UniqueId=\AFAOVGNO\VMTRLFHI|Kind=1|AlternatePart= 
 Variation2=Designator=Q2|UniqueId=\AFAOVGNO\DYULVDBN\AYPZFBET|Kind=1|AlternatePart= 
 Variation3=Designator=U10|UniqueId=\AFAOVGNO\OMXGGYDJ\AHRDUHCN|Kind=0|AlternatePart= 
@@ -293,6 +310,7 @@ Variation14=Designator=UP_SW3|UniqueId=\AFAOVGNO\FKSVJKIK\NEMCPVOB|Kind=1|Altern
 Variation15=Designator=RT_SW3|UniqueId=\AFAOVGNO\KPJPEBNF\NEMCPVOB|Kind=1|AlternatePart= 
 Variation16=Designator=LT_SW3|UniqueId=\AFAOVGNO\SIDWTUWV\NEMCPVOB|Kind=1|AlternatePart= 
 Variation17=Designator=DN_SW3|UniqueId=\AFAOVGNO\QTXJOGWN\NEMCPVOB|Kind=1|AlternatePart= 
+Variation18=Designator=P1|UniqueId=\AFAOVGNO\MGAUKNKH|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [SearchPath1]
@@ -308,20 +326,20 @@ Path=..\libraries\*.*
 IncludeSubFolders=1
 
 [Parameter1]
-Name=PCBPARTNO
-Value=Jog3K
+Name=VarRevNo
+Value=A3
 
 [Parameter2]
-Name=PCBREVNO
-Value=A2
-
-[Parameter3]
 Name=Title
 Value=Jog3K
 
+[Parameter3]
+Name=PCBREVNO
+Value=A3
+
 [Parameter4]
-Name=VarRevNo
-Value=A2
+Name=PCBPARTNO
+Value=Jog3K
 
 [Configuration1]
 Name=Default Configuration
